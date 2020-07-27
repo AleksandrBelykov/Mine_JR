@@ -26,13 +26,13 @@ public class Task1 {
 		public static void main(String[] args) {
 	    	
 			Task1 artifact1 = new Task1 (212121);
-	    	System.out.println("артефакт 1: порядковый номер: " + artifact1.number);
+	    	System.out.println("Р°СЂС‚РµС„Р°РєС‚ 1: РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ: " + artifact1.number);
 	    	
-	    	Task1 artifact2 = new Task1 (212121, "Ацтеки");
-	    	System.out.println("артефакт 2: порядковый номер: " + artifact2.number + "; культура: " + artifact2.culture);
+	    	Task1 artifact2 = new Task1 (212121, "РђС†С‚РµРєРё");
+	    	System.out.println("Р°СЂС‚РµС„Р°РєС‚ 2: РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ: " + artifact2.number + "; РєСѓР»СЊС‚СѓСЂР°: " + artifact2.culture);
 	    	
-	    	Task1 artifact3 = new Task1 (212121, "Ацтеки", 12);
-	    	System.out.println("артефакт 2: порядковый номер: " + artifact3.number + "; культура: " + artifact3.culture + "; век: " + artifact3.age);
+	    	Task1 artifact3 = new Task1 (212121, "РђС†С‚РµРєРё", 12);
+	    	System.out.println("Р°СЂС‚РµС„Р°РєС‚ 2: РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ: " + artifact3.number + "; РєСѓР»СЊС‚СѓСЂР°: " + artifact3.culture + "; РІРµРє: " + artifact3.age);
 	    	
 	    }
 	
