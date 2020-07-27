@@ -3,8 +3,7 @@ public class Task_0217 {
 
 	public static int min(int a, int b, int c, int d) {
         return min(min(min(a, b), c), d);
-        //напишите тут ваш код
-
+   
 }
 
 public static int min(int a, int b) {
@@ -15,7 +14,6 @@ e = a;
  e = b;
  
  return e;
- //напишите тут ваш код
 
 }
 
