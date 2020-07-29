@@ -7,13 +7,8 @@ public class Task_0217 {
 }
 
 public static int min(int a, int b) {
-int e;
-if (a<b)
-e = a;
- else
- e = b;
- 
- return e;
+int e = (a<b)? a : b;
+return e;
 
 }
 
