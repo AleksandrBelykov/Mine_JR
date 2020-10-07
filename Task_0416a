@@ -1,0 +1,57 @@
+package Level_4;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+/*import java.util.Scanner;*/
+
+public class Task_0416 {
+
+	public static void main(String[] args) throws IOException {
+		System.out.println("Введите число от 0.0 до 60.0");
+		
+		while(true) {
+			double x;
+			/*Scanner scanner = new Scanner(System.in);
+			double check = scanner.nextDouble();*/
+			
+			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+			String s= reader.readLine();
+			double check = Double.parseDouble(s);
+			if(check>=0 && check<=60) {
+				x=check;
+				System.out.println("Ваше число = "+x);
+				
+
+				int i;
+				for (i=1; i<=12; i++) {
+					double a=x/i;
+					int n=i-1;
+					double b=x-5*n;
+					if (a>=0 && a<=5) {
+						System.out.println(a);
+						System.out.println(n);
+						System.out.println(b);
+						System.out.print("А светофор горит сейчас ");
+						if ((b>=0 && b<=3) || b==5)
+							System.out.println("зелёный");
+							else
+								if (b>=3 && b<4)
+								System.out.println("жёлтый");
+								else
+									if (b>=4 && b<5)
+										System.out.println("красный");
+				break;										
+				} 
+				
+				}
+				
+			}
+				else {
+					System.out.println("Введите ещё раз число от 0.0 до 60.0");
+					
+			/*scanner.close();*/
+			}
+		}
+	}
+}
